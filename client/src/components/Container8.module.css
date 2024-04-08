@@ -1,0 +1,89 @@
+/* Container8.module.css */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    flex: 1;
+    margin-bottom: 20px; 
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+.logoContainer {
+    margin-bottom: 20px; 
+}
+
+.logoContainer img {
+    height: 40px;
+    width: auto;
+    display: block;
+    margin: 0 auto; 
+    margin-top: 35px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+.socialIcon {
+    margin: auto;
+    margin-top: 1px;
+    color: #2B6C7E;
+}
+
+.columnHeading {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.footerDescription {
+    padding: 20px;
+    text-align: center; 
+}
+
+.serviceList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
+
+.serviceList li {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footer {
+        display: inline;
+        padding: 20px;
+        background-color: #000;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+   .columnHeading{
+    text-decoration: underline;
+    padding: 1px;
+    margin: auto;
+   }
+
+   .serviceList{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+   }
+}

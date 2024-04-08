@@ -1,0 +1,8 @@
+.connect {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 982px;
+  overflow: hidden;
+  letter-spacing: normal;
+}

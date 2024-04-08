@@ -1,0 +1,95 @@
+.container4 {
+    text-align: center;
+    color: black;
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 2px;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 100;
+    margin-bottom: 55px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.steps > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.label {
+    padding: 20px;
+    
+    width: 180px;
+}
+
+.stepCircle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.stepLine {
+    flex: 1;
+    height: 2px;
+    margin: 0 10px 70px 0px;
+    border-bottom: 2px dotted #333;
+}
+
+.stepCircle:not(:first-child) {
+    margin-left: 20px;
+}
+
+.stepCircle:not(:last-child) {
+    margin-right: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container4 {
+        width: 80%;
+        padding: 30px 10%;
+    }
+
+    .steps {
+        flex-direction: column;
+    }
+
+    .steps > div {
+        margin-bottom: 20px;
+    }
+
+    .stepLine {
+        width: 2px;
+        height: auto;
+        margin: 10px 0;
+        border-right: 2px dotted #333;
+        border-bottom: none;
+    }
+
+    .stepCircle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .stepCircle:not(:first-child) {
+        margin-left: 0;
+    }
+}

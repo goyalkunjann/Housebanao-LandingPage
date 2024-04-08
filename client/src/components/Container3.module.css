@@ -1,0 +1,114 @@
+.Container3 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+}
+
+.Container3BoxHeading {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-weight: 200;
+    width: 40%;
+}
+
+.Container3BoxButton {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-weight: 200;
+    width: 40%;
+}
+
+.Container3BoxButton button{
+  height: 50px;
+  width: 360px;
+  border-radius: 5px;
+  margin: 20PX;
+  background-color: #2B6C7E;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  margin-top: 70px;
+}
+
+.Container3BoxDataPlan h1 {
+  font-size: 28px;
+}
+
+.Container3BoxData {
+    height: 80px;
+    width: 60%;
+    margin: auto;
+    border-bottom: 3px solid #2B6C7E;
+    cursor: pointer;
+}
+
+.Container3BoxDataPlan {
+    width: 40%;
+    height: 80px;
+    float: left;
+    font-size: 28px;
+}
+
+.Container3BoxDataPrice {
+    width: 60%;
+    height: 80px;
+    float: right;
+    font-size: 26px;
+    text-align: right;
+}
+
+
+/* For phones (up to 800px) */
+@media only screen and (max-width: 940px) {
+    .Container3BoxHeading {
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        font-weight: 200;
+        width: 80%;
+    }
+
+    .Container3BoxButton {
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        font-weight: 200;
+        width: 70%;
+    }
+
+    .Container3BoxButton button{
+        width: 100%;
+        font-size: 18px;
+      }
+
+    .Container3BoxData {
+        height: 80px;
+        width: 90%;
+        margin: auto;
+        border-bottom: 3px solid #2B6C7E;
+        cursor: pointer;
+    }
+
+    .Container3BoxDataPrice {
+        font-size: 22px;
+    }
+    
+  }
+  
+  /* For tablets (601px to 900px) */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .Container3BoxData {
+        height: 80px;
+        width: 60%;
+        margin: auto;
+        border-bottom: 3px solid #2B6C7E;
+        cursor: pointer;
+    }
+    
+  }
+  

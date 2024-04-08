@@ -1,0 +1,101 @@
+.Container2 {
+  margin: 30px auto 0px auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container2Box {
+  height: 300px;
+  width: 15%;
+  margin: 10px;
+  padding: 2.5px;
+}
+.Container2BoxData {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.Container2Icon {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container2Data {
+  text-align: center;
+}
+
+.Container2Data {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.Container2IconBox1, .Container2IconBox2, .Container2IconBox3, .Container2IconBox4, .Container2IconBox5, .Container2IconBox6 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container2IconBox1 {
+  background-color: #ECDAF2;
+}
+
+.Container2IconBox2 {
+  background-color: #FFEDDE;
+}
+
+.Container2IconBox3 {
+  background-color: #D9FCF6;
+}
+
+.Container2IconBox4 {
+  background-color: #FFF7AE;
+}
+
+.Container2IconBox5 {
+  background-color: #E3DEFF;
+}
+
+.Container2IconBox6 {
+  background-color: #C5FDBB;
+}
+
+.Container2IconImg {
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 940px) {
+  .Container2BoxData {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .Container2Box {
+    height: 300px;
+    width: 100%;
+    margin: 10px 0px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .Container2BoxData {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .Container2Box {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+}
