@@ -5,7 +5,7 @@ const Container2 = () => {
   return (
     <div className={styles.Container2}>
            <div className={styles.Container2BoxHeading}>
-            <h1>Why choose us?</h1>
+           <h1>Why choose us?</h1>
            </div>
         <div className={styles.Container2BoxData}>
           <div className={styles.Container2Box}>
