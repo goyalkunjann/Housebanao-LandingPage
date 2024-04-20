@@ -1,0 +1,125 @@
+.container {
+    text-align: center;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.container h1 {
+    font-size: 25px;
+}
+
+h1 {
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+   
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    line-height: 1.5;
+    max-height: 3em;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.flashcardContainer {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 20px;
+    justify-content: flex-start;
+    position: relative;
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+}
+
+.flashcardContainer::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+}
+
+.flashcardContainer::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 2px;
+}
+
+.flashcardContainer::-webkit-scrollbar-track {
+    background: transparent;
+}
+.flashcard {
+    flex: 0 0 30%;
+    max-width: 30%;
+    min-height: 400px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageContainer {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.textContainer {
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.flashcardTitle, .flashcardDescription {
+    margin: 0;
+    padding: 5px;
+}
+
+.arrowButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrowButton.left {
+    left: 10px;
+}
+
+.arrowButton.right {
+    right: 10px;
+}
+
+.arrowButton:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 600px) {
+    .flashcard {
+        flex: 0 0 90%;
+        max-width: 90%;
+    }
+
+    .imageContainer {
+        height: 200px;
+    }
+}

@@ -1,0 +1,66 @@
+.Container5 {
+    height: auto;
+    width: 94%;
+    margin: auto;
+    padding-top: 70px; /* Ensure enough space on top */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container5Main {
+    display: flex; /* Using flexbox to manage layout */
+    justify-content: space-between; /* Ensures proper spacing between elements */
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Allows elements to wrap in smaller views */
+}
+
+.Container5LeftContainer {
+    flex: 1; /* Takes as much space as it can */
+    padding: 0 20px; /* Reduce padding to ensure more text space */
+    min-width: 300px; /* Minimum width to prevent too much squeezing */
+}
+
+.Container5RightContainer {
+    flex: 1; /* Takes as much space as it can */
+    padding: 0 20px; /* Reduce padding to ensure image fits well */
+    min-width: 300px; /* Minimum width for images */
+}
+
+.Container5LeftContainer h1 {
+    font-size: 40px; /* Reduced size for better fit on all devices */
+    margin-bottom: 10px; /* Reduce space between h1 and p */
+}
+
+.Container5LeftContainer p {
+    font-size: 20px; /* Adjusted size for better readability */
+    font-weight: 100;
+    overflow-wrap: break-word; /* Ensures text wraps and does not overflow */
+}
+
+.Container5Img {
+    max-width: 100%; /* Ensures image does not exceed its container width */
+    height: auto; /* Adjust height relative to width */
+    margin: 20px 0; /* Adjust margin around image */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 800px) {
+    .Container5Main {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+
+    .Container5LeftContainer, .Container5RightContainer {
+        width: 100%; /* Full width for better layout on small devices */
+        padding: 0 15px; /* Reduced padding */
+        text-align: center; /* Center align text for better appearance */
+    }
+
+    .Container5LeftContainer h1, .Container5LeftContainer p {
+        font-size: 24px; /* Adjusted font size for smaller screens */
+        padding: 10px 0; /* Padding to give text some breathing space */
+    }
+
+    .Container5Img {
+        margin: 10px auto; /* Center and reduce margin for the image */
+        width: 90%; /* Slightly reduce image width for border consistency */
+    }
+}

@@ -1,0 +1,42 @@
+.construction6 {
+    border-radius: 8px; /* Keep or remove as desired */
+    padding: 20px;
+    margin: 20px 0 20px 20px; /* Adds margin to the left and keeps vertical spacing */
+    text-align: left;
+    width: calc(100% - 40px); /* Adjusts the width to account for the margin */
+    overflow: hidden;
+}
+
+.construction6 h1 {
+    font-size: x;
+    margin-left: 20px;
+    margin-bottom: 10px; /* Optional: adds a little space between h1 and p */
+}
+
+.construction6 p {
+    color: #575757;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px; /* Optional: adds space below the paragraph */
+}
+
+/* Logo slider styles unchanged */
+.logoSlider {
+    display: flex;
+    min-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: moveSlideshow 20s linear infinite;
+}
+
+.logoSlider img {
+    height: 50px;
+    margin-right: 135px; /* Consistent spacing between logos */
+    flex-shrink: 0;
+}
+
+@keyframes moveSlideshow {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}

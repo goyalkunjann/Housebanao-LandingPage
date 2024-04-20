@@ -1,0 +1,138 @@
+.Container6 {
+    height: 600px;
+    width: 90%;
+    margin: 0px 80px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container6Main {
+    display: flex;
+}
+
+.Container6LeftContainer {
+    height: 600px;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Container6RightContainer {
+    height: auto;
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container6LeftContainerBox1 button {
+    margin: 0 50px 0 0; 
+    margin-bottom: 120px;
+    background-color: #2B6C7E;
+    padding: 12.5px 80px;
+    font-size: 22px;
+    font-weight: 500; 
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.Container6LeftContainer h1 {
+    font-weight: 100;
+    font-size: 50px;
+    padding: 0 0 20px 0;
+    color: #545454;
+    margin: 0;
+}
+
+.Container6LeftContainer p {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+
+.Container6Img {
+    height: 400px;
+    margin: 40px;
+    float: right;
+}
+
+.Container6LeftContainerBox2 {
+    display: flex;
+}
+
+.Container6LeftContainerBox2Data {
+    height: 220px;
+    width: 30%;
+    margin: 10px;
+}
+
+.Container6LeftContainerBox2DataValue {
+    height: auto;
+    width: 100%;
+}
+
+.Container6LeftContainerBox2DataValue h1 {
+    margin: 0;
+}
+
+.Container6LeftContainerBox2DataValue p {
+    font-size: 22px;
+    margin: 0;
+}
+
+.Container6LeftContainerBox2DataText {
+    height: 90px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 940px) {
+    .Container6LeftContainer,
+    .Container6RightContainer {
+        width: 100%;
+        text-align: center; 
+    }
+
+    .Container6LeftContainerBox1,
+    .Container6RightContainerBox1 {
+        width: 100%;
+        text-align: left; 
+    }
+
+    .Container6LeftContainerBox1 {
+        order: -1; 
+        text-align: center;
+    }
+
+    .Container6Img {
+        width: 80%; 
+        margin: 20px auto; 
+    }
+
+    .Container6 {
+        height: 450px;
+        width: 90%;
+        margin: 0px 10px;
+        margin-top: -120px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .Container6LeftContainerBox1 button {
+        margin: auto; 
+        margin-bottom: 120px;
+        background-color: #2B6C7E;
+        padding: 12.5px 50px;
+        font-size: 20px;
+        font-weight: 500; 
+        cursor: pointer;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+    }
+}
