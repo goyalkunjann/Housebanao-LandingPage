@@ -1,0 +1,52 @@
+/* Construction6.module.css */
+.construction6 {
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 0;
+    text-align: left;
+    width: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.construction6 h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+}
+
+.construction6 p {
+    color: #575757;
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.logoSlider {
+    display: flex;
+    margin-left: 40px;
+    width: auto; /* Ensure the width accommodates double the logos */
+    overflow: hidden;
+    white-space: nowrap;
+    animation: moveSlideshow 20s linear infinite;
+}
+
+.logoSlider img {
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+@keyframes moveSlideshow {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-50%); }
+    100% { transform: translateX(-50%); }
+}
+
+@media (max-width: 768px) {
+    .logoSlider img {
+        margin-right: 10px;  
+    }
+}

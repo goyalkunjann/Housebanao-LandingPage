@@ -1,0 +1,74 @@
+.container1 {
+    height: 100vh;
+    padding-top: 50px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    left: 116px;
+    margin-bottom: 40px;
+    position: absolute;
+}
+
+.contentTitle1, .contentTitle2 {
+    margin-bottom: 0; /* No space between the titles */
+    margin-top: 0; /* No space between the titles */
+}
+
+.leftContainer1 {
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.button1, .button2 {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 0 5px; /* Adjust margin to reduce space between buttons */
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap; /* Prevents the buttons from wrapping text */
+}
+
+.button1 {
+    background-color: #A46254;
+    color: #fff;
+    width: 360px;
+    height: 50px;
+}
+
+.iconsPage {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.whatsappIcon, .phoneIcon, .chatIcon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.chatIcon {
+    margin-top: 430px;
+    width: 40px;
+    height: auto;
+    border-radius: 5px;
+}

@@ -1,0 +1,113 @@
+.popup {
+  width: 400px;
+  height: 480px;
+  padding: 20px;
+  border: 2px solid #A46254;
+  background-color: white;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 1050;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer; 
+  font-size: 24px;
+  color: #A46254;
+  outline: none;
+}
+
+.logo {
+  height: 30px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.title, .subtitle {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #6C757D; 
+  font-weight: 100;
+  margin-top: 1px;
+}
+
+.inputHolder {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.input {
+  margin: 10px 0;
+  border-radius: 15px;
+  padding: 10px;
+  width: 90%; /* Utilize full width for input fields */
+  border: 1px solid #A46254; /* Consistent border styling */
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid #A46254; /* Slightly thicker border on focus for visibility */
+}
+
+.submitButton {
+  padding: 12px 24px;
+  background-color: #A46254; /* Brand consistent button color */
+  color: white;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.termsLabel {
+  font-size: 14px;
+}
+
+.termsLink {
+  color: #A46254;
+  text-decoration: none;
+}
+
+.termsLink:hover {
+  text-decoration: underline; /* Enhance interactivity with underline on hover */
+}

@@ -1,0 +1,75 @@
+.container4 {
+    text-align: center;
+    color: black;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.label {
+    padding: 10px;
+    text-align: center;
+}
+
+.stepCircle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stepLine {
+    height: 2px;
+    width: 50px;  /* Shorter line for better appearance */
+    background-color: #333;  /* Solid color for visibility */
+    margin: 5px 20px;
+}
+
+@media (max-width: 768px) {
+    .steps {
+        flex-direction: column;
+    }
+
+    .stepLine {
+        width: 80%;  /* Full width line for vertical layout */
+        height: 2px;
+        margin: 10px auto;
+    }
+
+    .stepCircle {
+        width: 60px;
+        height: 60px;
+    }
+}

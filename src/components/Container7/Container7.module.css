@@ -1,0 +1,267 @@
+.container1 {
+    height: 100vh;
+    padding-top: 50px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    left: 116px;
+    position: absolute;
+}
+
+.contentTitle1 {
+    margin: 180px 0 0 0;
+}
+
+.contentTitle2 {
+    margin: 0;
+}
+
+.leftContainer1 {
+    width: 70%;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contentA {
+    left: 70px;
+    position: absolute;
+}
+
+.leftContainer1 h1 {
+    font-size: 60px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.leftContainer1 p {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.leftContainer1 h1:nth-child(1) {
+    color: black;
+    margin-top: 0;
+}
+
+.leftContainer1 h1:nth-child(2) {
+    color: #2B6C7E;
+    font-weight: 500;
+}
+
+.leftContainer1 p:nth-child(3) {
+    color: black;
+}
+
+.icon-color {
+    color: #2B6C7E; /* Your desired color */
+}
+
+.leftContainer1 .button1 {
+    height: 50px;
+    width: 360px;
+    border-radius: 5px;
+    background-color: #2B6C7E;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.leftContainer1 .popular {
+    color: black;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.leftContainer1 .button2 {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 15px;
+}
+
+.rightContainer1 {
+    flex: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 30%;
+    right: 0;
+    position: absolute;
+    text-align: left;
+}
+
+.rightContainer1 .content {
+    text-align: left;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.rightContainer1 input,
+.rightContainer1 button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.rightContainer1 input[type="text"],
+.rightContainer1 input[type="tel"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px 0;
+    width: 90%;
+    padding: 13px;
+}
+
+.rightContainer1 button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin: 18px 0;
+    width: 90%;
+    height: 50%;
+}
+
+/* Updated CSS for responsiveness */
+@media only screen and (max-width: 768px) {
+    .container1 {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .leftContainer1 {
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+    }
+
+    .leftContainer1 .content {
+        text-align: center;
+        position: relative;
+        top: 50%; 
+        transform: translateY(-50%);
+    }
+
+    .rightContainer1 {
+        width: 100%;
+        position: relative;
+        height: auto;
+        text-align: center;
+        margin-top: 20px; 
+    }
+}
+
+.container {
+    text-align: left;
+    width: 90%;
+    margin: 10px auto 80px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    margin-bottom: 30px;
+    color: #333;
+    margin-left: 108px;
+    position: relative;
+}
+
+.heading::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 90px;
+    color: black;
+    background: black;
+    position: absolute;
+    left: -105px;
+    top: 50%;
+}
+
+.services-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.service img {
+    margin-right: 10px;
+    margin-bottom: 110px;
+    height: 50px;
+}
+
+.service-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-desc h3 {
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.service-desc p {
+    font-size: 19px;
+    margin-top: 10px;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* For responsiveness */
+@media only screen and (max-width: 768px) {
+    .heading {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .heading::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .services-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service {
+        width: 80%;
+    }
+
+    .service img {
+        margin-bottom: 150px;
+    }
+
+    .heading::before {
+      display: none;
+    }
+}

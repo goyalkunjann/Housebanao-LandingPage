@@ -1,0 +1,71 @@
+.Container2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px;
+  margin-top: 0; /* No space above this container */
+}
+
+.Container2 h1,
+.Container2 p {
+  margin: 0 auto; 
+  padding: 10px 0; 
+  max-width: 90%;
+}
+
+.Container2BoxData {
+  display: flex;
+  white-space: nowrap;
+  animation: scroll linear infinite; 
+  animation-duration: 40s; 
+}
+
+.Container2Box {
+  flex: 0 0 16.6667%; 
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+@keyframes scroll {
+0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(-100%);
+}
+}
+
+@media (max-width: 940px) {
+  .Container2Box {
+      flex: 0 0 50%; /* Larger view for less boxes per row */
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .Container2Box {
+      flex: 0 0 33.3333%; /* Three boxes per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .Container2 {
+      padding: 10px; /* Reduced padding on smaller screens */
+  }
+  .Container2BoxData {
+      animation-duration: 20s; /* Faster scroll on smaller screens */
+  }
+  .Container2Box {
+      width: 100%; /* Full width boxes on very small screens */
+      margin: 5px 0; /* Reduced margin for compact layout */
+  }
+}

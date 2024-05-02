@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d564bae4.css",
+    "main.js": "/static/js/main.b6ac543f.js",
+    "static/media/picture3.jpg": "/static/media/picture3.975ec7cc4a578e804d1b.jpg",
+    "static/media/Houseimage.jpeg": "/static/media/Houseimage.69f4cbb8a23b13946676.jpeg",
+    "static/media/picture5.jpg": "/static/media/picture5.ff8550c8056c95613df3.jpg",
+    "static/media/picture1.jpg": "/static/media/picture1.4ff1a47673082761e8ce.jpg",
+    "static/media/flashcard4.jpg": "/static/media/flashcard4.118762c6be3037196c02.jpg",
+    "static/media/picture4.jpg": "/static/media/picture4.a6f6d5f378aa0c48900c.jpg",
+    "static/media/flashcard3.jpg": "/static/media/flashcard3.18fc46bb4716dc68e619.jpg",
+    "static/media/picture6.jpg": "/static/media/picture6.18fc46bb4716dc68e619.jpg",
+    "static/media/picture2.jpg": "/static/media/picture2.6751948eba9fc47ebd39.jpg",
+    "static/media/flashcard1.jpg": "/static/media/flashcard1.ee80a852b1772fb2a6b4.jpg",
+    "static/media/flashcard2.jpg": "/static/media/flashcard2.f3b43128984ae92e441c.jpg",
+    "static/media/output3.png": "/static/media/output3.a690721f2b9edd7d7c40.png",
+    "static/media/output1.png": "/static/media/output1.761577b7fd5a66b23b3e.png",
+    "static/media/output2.png": "/static/media/output2.932e712168b3bd4b589e.png",
+    "static/media/logo@2x.png": "/static/media/logo@2x.c0da04c6b3983ef76a9d.png",
+    "static/media/dorset.png": "/static/media/dorset.c215deca241c0fe06554.png",
+    "static/media/asianpaints.png": "/static/media/asianpaints.0103c2e6346e4562d6ff.png",
+    "static/media/Siemens.png": "/static/media/Siemens.5042b5710370883297e5.png",
+    "static/media/Hettich.png": "/static/media/Hettich.0d6efff155a51004caf9.png",
+    "index.html": "/index.html",
+    "main.d564bae4.css.map": "/static/css/main.d564bae4.css.map",
+    "main.b6ac543f.js.map": "/static/js/main.b6ac543f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d564bae4.css",
+    "static/js/main.b6ac543f.js"
+  ]
+}

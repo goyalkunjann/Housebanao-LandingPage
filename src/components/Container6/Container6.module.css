@@ -1,0 +1,94 @@
+.Container6 {
+    width: 100%;
+    margin: 40px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container6Main {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Container6LeftContainer,
+.Container6RightContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container6LeftContainerBox1 {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.Container6LeftContainerBox1 button {
+    background-color: #A46254;
+    color: white;
+    width: 80%;
+    padding: 12px 24px;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.Container6LeftContainerBox2 {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.Container6LeftContainerBox2Data {
+    text-align: center;
+}
+
+.Container6LeftContainerBox2Data h1 {
+    font-size: 50px;
+    font-weight: 200;
+    color: #545454;
+}
+
+.Container6LeftContainerBox2Data p {
+    font-size: 18px;
+    color: #666;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.Container6RightContainer {
+    padding: 20px;
+}
+
+.Container6Img {
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-right: 80px;
+}
+
+@media (max-width: 768px) {
+    .Container6Main {
+        flex-direction: row; 
+    }
+
+    .Container6LeftContainer,
+    .Container6RightContainer {
+        flex: 1;
+        max-width: 33%; /* Adjust the width to make them fit in a single row */
+    }
+
+    .Container6LeftContainerBox2 {
+        flex-direction: row; /* Keep the inner items in a row */
+    }
+}
